@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-"""
-Python script takes your Github credentials (username and password)
-and uses the Github API to display your id
-"""
+'''
+Python script that takes in a letter and sends a POST request
+to http://0.0.0.0:5000/search_user with the letter as a parameter
+'''
 import requests
 from requests.auth import HTTPBasicAuth
 from sys import argv
