@@ -5,12 +5,12 @@
 
 
 def find_peak(list_of_integers):
-        """
+    """
         This function will find a peak.
     """
-            if list_of_integers is None:
-                        return None
-                        if len(list_of_integers) == 0:
-                                    return None
+    if list_of_integers is None:
+        return None
+    if len(list_of_integers) == 0:
+        return None
 
-                                        return find_peak(list_of_integers[midpoint:])
+        return find_peak(list_of_integers[midpoint:])
